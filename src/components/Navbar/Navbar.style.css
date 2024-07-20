@@ -1,0 +1,21 @@
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px;
+}
+
+.sg-logo {
+  letter-spacing: 1em;
+}
+
+.navbar-links-wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}

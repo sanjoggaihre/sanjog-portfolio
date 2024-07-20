@@ -1,0 +1,10 @@
+.projects-wrapper {
+  max-width: 1280px;
+  padding: 0 128px;
+}
+.projects-wrapper h1 {
+  text-align: center;
+}
+.project-wrapper {
+  padding: 32px 0;
+}

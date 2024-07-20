@@ -1,0 +1,10 @@
+.publications-wrapper {
+  max-width: 1280px;
+  padding: 0 128px;
+}
+.publications-wrapper h1 {
+  text-align: center;
+}
+.publication-wrapper {
+  padding: 32px 0;
+}

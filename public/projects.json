@@ -1,0 +1,81 @@
+{
+  "projects": [
+    {
+      "title": "Over speed surveillance system using OpenCV, deep learning and distributed system",
+      "link": "https://github.com/overspeeding-surveillance",
+      "descriptions": [
+        "A web app was developed where we can upload the saved video or live stream from CCTV that captured the overspeed vehicle's Nepali license plate from the video/stream.A three-class Vehicle Detection model and customized models for Numberplate detection, Character-segmentation, and Character-Detection are developed. The output of one model feeds into the input of another on a distributed system, thus these four models can operate parallelly."
+      ]
+    },
+    {
+      "title": "Pneumonia prediction using CNN",
+      "link": "https://github.com/sanjoggaihre/Pneumonia_detection_using_CNN",
+      "descriptions": [
+        "An AlexNet CNN model was developed to detect the presence of pneumonia by seeing the chest X-ray. Before training, all the datasets were preprocessed and resized to (227,227,3). By training for 12 epochs with a batch size of 32, the optimum model was achieved."  
+      ]
+    },
+    {
+      "title": "Image caption generator",
+      "link": "https://github.com/sanjoggaihre/Image-Caption-Generator",
+      "descriptions": [
+        "In this project, a CNN-LSTM model was developed to produce the caption of the image. For training data, the Flickr8k dataset is used and a pretrained VGG-16 model is used to extract the feature of the image which is used for training the RCNN model, and a suitable RCNN model was developed."
+      ]
+    },
+    {
+      "title": "Movie Recommendation System using K-means clustering",
+      "link": "https://github.com/sanjoggaihre/Movie_Recommendation_System",
+      "descriptions": [
+        "In this project, I developed a movie recommendation system by scraping data from IMDb and preprocessing the movies along with their respective genres. I utilized k-means clustering to group the movies into different clusters based on their genres. When a user inputs a movie name, the system preprocesses it and assigns it to a cluster. The system then displays other movies in the same cluster as recommended movies to the user."
+      ]
+    },
+    {
+      "title": "Automate chrome dino game using reinforcement learning",
+      "link": "https://github.com/sanjoggaihre/Automate-chrome-dino-game-using-reinforcement-learning/tree/main",
+      "descriptions": [
+        "In this project, the agent operates within the environment of the Chrome Dino AI game. The agent receives rewards for successfully navigating each frame without crashing. However, if the game ends in a crash, a significant penalty is imposed. The agent is trained using the Deep Q-Network (DQN) model, allowing it to learn optimal strategies for avoiding obstacles and maximizing its performance in the game."
+      ]
+    },
+    {
+      "title": "Gesture volume control",
+      "link": "https://github.com/sanjoggaihre/GestureVolumeControl",
+      "descriptions": [
+        "In this project, landmarks of the fingers are detected using a webcam, and the distance between the tip of the index finger and the tip of the thumb finger is used to regulate the volume of the system in real time."
+      ]
+    },
+    {
+      "title": "Real-time air traffic visualization using Flightradar24 data",
+      "link": "https://github.com/sanjoggaihre/Crawling-flightradar24-website",
+      "descriptions": [
+        "In this project, a crawler is created that extract links from the webpage and the required content is scraped from the base webpage and extracted url's links. In this project we use Selenium and BeautifulSoup library to scrap webpage and creating crawler. The extracted data is stored in csv file. In this project, we scrap two websites that consists of the data about the no of airports present in each country and the no of the aircraft of the each aircraft family. Then we use matplotlib, numpy and pandas to visualize the csv file."
+      ]
+    },
+    {
+      "title": "Soft body dynamics using mass-spring system and internal pressure model",
+      "link": "https://github.com/sanjoggaihre/Soft-Body-Simulation",
+      "descriptions": [
+        "In this project, the behavior of different soft bodies is simulated using openGL and C++. All those graphics rendering pipelines, shaders, and lights were implemented from scratch. Next, we animated the responses of soft body like objects to different forces."
+      ]
+    },
+    {
+      "title": "Stock price notifier",
+      "link": "https://github.com/sanjoggaihre/Stock_Price_Notifier",
+      "descriptions": [
+        "In this project, the user entered the ticker symbol for the stock that they wish to keep an eye on, along with a threshold, phone number, email, and other details. If the user-specified threshold is exceeded by the stock price, the user will be notified on a minute, hourly, or daily basis. The notification method selected by the user, email or SMS, will be used."
+      ]
+    },
+    {
+      "title": "Data Pipeline using apache airflow to download podcast episodes",
+      "link": "https://github.com/sanjoggaihre/Data-Pipeline-using-apache-airflow-to-download-podcast-episodes",
+      "descriptions": [
+        "In this project, a data pipeline was developed to use delta extraction for downloading recently uploaded videos. We created a database to store the names of the podcasts. When a new podcast is uploaded to the site, the system compares it with the database. If no record is found, the new podcast is downloaded and the database is updated with the podcast's name."
+      ]
+    },
+    {
+      "title": "Chatbot using nltk",
+      "link": "https://github.com/sanjoggaihre/Chatbot-using-nltk",
+      "descriptions": [
+        "In this project, a chatbot was developed using nltk library.we use tfidfVectorizer and Cosine similiarity for to convert the text into the matrix of TF-IDF features and comparing the user_response with the matrix of TF-IDF features."
+      ]
+    }
+  ]
+}
