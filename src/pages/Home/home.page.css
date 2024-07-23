@@ -32,3 +32,15 @@
 .infos-wrapper p {
   margin: 0;
 }
+
+.footer-wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.footer-wrapper a {
+  color: black;
+}

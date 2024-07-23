@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import baffle from "baffle";
 import "./home.page.css";
 import { Navbar } from "../../components";
-import "../About/About.style.css"
-
+import "../About/About.style.css";
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 function LoaderSkeleton({
   loading,
@@ -32,7 +32,6 @@ function reveal() {
 }
 
 export function HomePage() {
-
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState(false);
   const [response, setResponse] = React.useState<any>(null);
@@ -57,7 +56,6 @@ export function HomePage() {
         <h2>About</h2>
         <LoaderSkeleton loading={loading} error={error}>
           <div className="infos-wrapper">
-            
             {response?.about?.descriptions?.map((des) => (
               <div dangerouslySetInnerHTML={{ __html: des }} />
             ))}
@@ -65,11 +63,26 @@ export function HomePage() {
             {response?.about?.infos?.map((info) => <p>{info}</p>)}
           </div>
         </LoaderSkeleton>
+        <div className="footer-wrapper">
+          <a
+            href="https://www.facebook.com/san.jook.9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebookSquare size="24px" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sanjoggaihre0/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size="24px" />
+          </a>
+        </div>
       </div>
     </>
   );
 }
-
 
 export function AboutPage() {
   const [loading, setLoading] = React.useState(true);
@@ -97,7 +110,7 @@ export function AboutPage() {
             ))}
           </div>
         </LoaderSkeleton>
-      </div>  
+      </div>
     </>
   );
 }
