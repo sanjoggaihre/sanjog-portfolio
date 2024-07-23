@@ -3,7 +3,7 @@ import baffle from "baffle";
 import "./home.page.css";
 import { Navbar } from "../../components";
 import "../About/About.style.css";
-import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaGithub} from "react-icons/fa";
 
 function LoaderSkeleton({
   loading,
@@ -77,6 +77,13 @@ export function HomePage() {
             rel="noopener noreferrer"
           >
             <FaLinkedin size="24px" />
+          </a>
+          <a
+            href="https://github.com/sanjoggaihre"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size="24px" />
           </a>
         </div>
       </div>
