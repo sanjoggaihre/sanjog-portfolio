@@ -28,7 +28,7 @@ export function PublicationsPage() {
   const [response, setResponse] = React.useState<any>(null);
 
   React.useEffect(() => {
-    fetch("/sanjog-portfolio/public/publications.json")
+    fetch("/sanjog-portfolio/publications.json")
       .then((res) => res.json())
       .then((res) => setResponse(res))
       .catch(() => setError(true))

@@ -22,7 +22,7 @@ export function ProjectsPage() {
   const [response, setResponse] = React.useState<any>(null);
 
   React.useEffect(() => {
-    fetch("/sanjog-portfolio/public/projects.json")
+    fetch("/sanjog-portfolio/projects.json")
       .then((res) => res.json())
       .then((res) => setResponse(res))
       .catch(() => setError(true))

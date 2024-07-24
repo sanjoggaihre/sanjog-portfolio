@@ -40,7 +40,7 @@ export function HomePage() {
   }, []);
 
   React.useEffect(() => {
-    fetch("/sanjog-portfolio/public/about.json")
+    fetch("/sanjog-portfolio/about.json")
       .then((res) => res.json())
       .then((res) => setResponse(res))
       .catch(() => setError(true))
