@@ -1,0 +1,10 @@
+{
+  "about": {
+    "descriptions": [
+      "My research interests lie at the intersection of computer vision, NLP, and deep learning. During my undergraduate studies, I dedicated significant time to computer vision tasks such as image segmentation, preprocessing, object detection, and tracking, as well as deep learning techniques like CNN, YOLO, and RNN. Similarly, My role as a data engineer provided me with extensive experience in extracting and transforming data using python which arouse my interest towards data mining and NLP domains." ,
+      "I am a data engineer at LIS Nepal. My role involves designing data pipelines, ensuring data integrity, and implementing solutions for data warehousing and analytics. Strong problem-solving skills, attention to detail, and a passion for leveraging data to drive business insights and decisions.",
+      "I have completed my Bachelor's in computer engineering in 2023 at Khwopa college of engineering. Throughout my undergraduate education, research-based learning has been my interest."  
+    ],
+    "infos": ["sanjoggaihre0@gmail.com", "Syangja, Nepal"]
+  }
+}
