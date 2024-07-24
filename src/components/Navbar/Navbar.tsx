@@ -12,7 +12,7 @@ export function Navbar() {
         <Link to="/">
           <h4>Home</h4>
         </Link>
-        <a href="/sanjog-portfolio/public/cv.pdf">
+        <a href="/sanjog-portfolio/cv.pdf">
           <h4>CV</h4>
         </a>
         <Link to="/publications">
